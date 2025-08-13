@@ -1,0 +1,10 @@
+.custom-card {
+  width: 1500px;  /* Ajusta el ancho de la tarjeta */
+  height: 500px; /* Ajusta la altura de la tarjeta */
+  overflow: hidden; /* Oculta cualquier contenido desbordado */
+}
+
+
+
+
+
