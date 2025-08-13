@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nosifer&family=Oswald:wght@700&family=Sedan+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="letraschicas">
+    <center><h1>¡Agenda tu visita a nuestro local para una atención más rápida y eficiente!</h1></center>
+<form action="https://formspree.io/f/xrbglqno" method="POST" style="max-width: 800px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+    <label for="name" style="font-size: 20px;">Nombre completo:</label>
+    <input type="text" id="name" name="name" required placeholder="Ingresa tu nombre completo" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+    
+    <label for="phone" style="font-size: 20px;">Teléfono:</label>
+    <input type="tel" id="phone" name="phone" required placeholder="Ejemplo: +56 9 1234 5678" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+    
+    <label for="email" style="font-size: 20px;">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required placeholder="Ejemplo: correo@ejemplo.com" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+    
+    <label for="service" style="font-size: 20px;">Servicio deseado:</label>
+    <select id="service" name="service" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+        <option value="">Selecciona un servicio</option>
+        <option value="pintura">Pintura</option>
+        <option value="desabolladura">Desabolladura</option>
+        <option value="pulido">Pulido</option>
+        <option value="polarizado">Polarizado</option>
+    </select>
+    
+    <label for="date" style="font-size: 20px;">Fecha de la visita:</label>
+    <input type="date" id="date" name="date" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+    
+    <button type="submit" style="width: 100%; padding: 10px; background-color:black; color: rgb(255, 255, 255); border: none; border-radius: 5px; cursor: pointer;">
+        RESERVAR HORA
+    </button>
+</form>
+<center>
+
+    <center>
+        <button onclick="window.location.href='index.html';" style="width: 60%; padding: 10px; background-color: gold; color: black; border: none; border-radius: 5px; cursor: pointer; margin-top: 20px;">
+            VOLVER AL INCIO
+        </button>
+    </center></div>
+</body>
+</html>

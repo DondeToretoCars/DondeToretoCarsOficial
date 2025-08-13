@@ -1,0 +1,50 @@
+body {
+    background-color:gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+  color: rgb(255, 0, 0);
+  font-family: "Nosifer", sans-serif;
+  font-style: normal;
+  font-size: 2.0rem; /* Tamaño consistente */
+  color: gold; /* Color de texto */
+  text-align: center; /* Centra el texto */
+}
+
+
+.letraschicas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3rem; /* Aumenta el tamaño de la fuente */
+  text-align: center; /* Centra el texto */
+  padding: 10px; /* Añade espaciado alrededor del texto */
+  COLOR:rgba(255, 255, 255, 0.644);
+}
+
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

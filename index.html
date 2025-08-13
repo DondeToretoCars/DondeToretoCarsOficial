@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/LOGO.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nosifer&family=Oswald:wght@700&family=Sedan+SC&display=swap" rel="stylesheet">
+  <title>DondeToretoCars</title>
+  <style>
+    body {
+      color:aliceblue
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de Navegación -->
+  <div class="cabezera">
+    <img src="assents/img/logo2.png" alt="Logo" width="250">
+    <h1>¡Transformamos tu auto, sin perder su esencia!</h1>
+  </div>
+
+  <header class="animated-header">
+    <nav>
+        <ul>
+          <li><a href="#quienes-somos">Quiénes somos</a></li>
+          <li><a href="#destacados">Nuestros Trabajos</a></li>
+          <li><a href="#car-life">Car Life</a></li>
+          <li><a href="Repuestos.html">Repuestos</a></li>
+          <li><a href="Reservas.html">Reserva tu visita</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          
+        </ul>
+    </nav>
+  </header>
+
+  <!-- Slide -->
+  <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+  
+    <!-- Contenido del carrusel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assents/img/2A.png" class="d-block w-100" alt="Imagen 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Transformación Inigualable </h5>
+          <p>Redefiniendo la estética de tu vehículo.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assents/img/1A.png" class="d-block w-100" alt="Imagen 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Brillo Perfecto</h5>
+          <p>La pintura que devuelve la vida a tu auto.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assents/img/3A.png" class="d-block w-100" alt="Imagen 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Recuperación Precisa</h5>
+          <p>Devolvemos la forma y esencia a tu vehículo.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assents/img/4A.png" class="d-block w-100" alt="Imagen 4">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Estilo y Protección</h5>
+          <p>El polarizado que combina seguridad y diseño.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div><br><br>
+  
+
+  <!-- Quiénes Somos -->
+  <section id="quienes-somos">
+    <div class="segundocontainer"><h4 class="section-title">¿Quiénes Somos?</h4></div>
+    <div class="container fade-in"><br><br>
+      <div class="card zoom-hover">
+        <i class="fa-solid fa-car"></i>
+        <div class="card-body">
+          <p>Elegir nuestra empresa para pintura y desabollado de autos es optar por calidad garantizada y un acabado impecable.</p>
+        </div>
+      </div>
+      <div class="card zoom-hover">
+        <i class="fa-solid fa-check"></i>
+        <div class="card-body">
+          <p>Deja tu auto en nuestras manos y disfruta de la tranquilidad de un trabajo bien hecho.</p>
+        </div>
+      </div>
+      <div class="card zoom-hover">
+        <i class="fa-solid fa-sack-dollar"></i>
+        <div class="card-body">
+          <p>Nos aseguramos que obtengas el mejor servicio al mejor precio.</p>
+        </div>
+      </div>
+    </div>
+  </section><br>
+
+  <!-- Destacados -->
+  <section id="destacados">
+    <div class="tercercontainer"><h4 class="section-title">Revisa Nuestros Trabajos</h4></div>
+    <div class="container2 fade-in">
+      <div class="card zoom-hover" onclick="openNewWindow('trabajos.html')">
+        <img src="assents/img/pintura.jpg" class="card-img-top" alt="Pintura">
+        <div class="card-body">
+          <p>PERFECCIÓN EN CADA PINCELADA <br> Revive el brillo original de tu auto con nuestra pintura experta.</p>
+        </div>
+      </div>
+      <div class="card zoom-hover" onclick="openNewWindow('trabajos.html')">
+        <img src="assents/img/choque.jpg" class="card-img-top" alt="Choque">
+        <div class="card-body">
+          <p>MAESTRÍA EN CADA GOLPE <br> Recupera la forma perfecta de tu auto con nuestra desabolladura sin igual.</p>
+        </div>
+      </div>
+      <div class="card zoom-hover" onclick="openNewWindow('trabajos.html')">
+        <img src="assents/img/pulir.jpg" class="card-img-top" alt="Pulido">
+        <div class="card-body">
+          <p>BRILLAMOS CON CADA DETALLE <br> Luce un auto como nuevo con nuestro pulido profesional.</p>
+        </div>
+      </div>
+      <div class="card zoom-hover" onclick="openNewWindow('trabajos.html')">
+        <img src="assents/img/polarizado.jpg" class="card-img-top" alt="Polarizado">
+        <div class="card-body">
+          <p>PROTECCIÓN Y ESTILO <br> Protege el interior de tu vehículo con nuestro polarizado de alta calidad.</p>
+        </div>
+      </div>
+    </div>
+  </section><br>
+
+  <!-- Car Life -->
+  <section id="car-life">
+    <div class="cuartocontainer">
+      <center><h4>Revisa la vida de tu automóvil</h4></center>
+    </div><br>
+    <a href="https://www.autofact.cl/" target="_blank">
+      <center>
+        <div class="card" style="width: 50rem;">
+          <img src="assents/img/CARLIFE.png" class="card-img-top" alt="CAR LIFE">
+          <div class="card-body">
+            <p class="card-text">
+              Historial de Propiedad: Información sobre los dueños anteriores del vehículo.<br>
+              Deudas y Multas: Detalle de cualquier deuda pendiente o multas asociadas al vehículo.<br>
+              Verificación de Patente: Confirmación de que la patente está activa y no tiene problemas legales.<br>
+              Datos Técnicos: Especificaciones del vehículo, como marca, modelo, año, y características técnicas.
+            </p>
+          </div>
+        </div>
+      </center>
+    </a><br>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" style="text-align: center;">
+    <div class="quintocontainer">
+      <h4 class="section-title">¡Déjanos un mensaje y te responderemos a la brevedad!</h4>
+    </div>
+    <div class="email">
+    <form action="https://formspree.io/f/xbljrwkv" method="POST" class="fade-in" style="display: inline-block; text-align: left;">
+      <label style="display: flex; align-items: center; margin-bottom: 20px;">
+        Tu email: 
+        <input type="email" name="email" required style="width: 1000px; height: 70px; margin-left: 10px;">
+      </label>
+      <label style="display: flex; align-items: center; margin-bottom: 20px;">
+        Mensaje: 
+        <textarea name="message" required style="width: 1000px; height: 200px; margin-left: 10px;"></textarea>
+      </label>
+      <div style="text-align: center;">
+        <button type="submit" style="margin-top: 10px; width: 100px; height: 50px;">Enviar</button>
+      </div>
+    </form></div>
+  </section>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script>
+  function openNewWindow(url) { window.location.href = url; }
+</script>
+</body>
+</html>
+
+<div class="sextocontainer" style="text-align: center;">
+  <h4>¡Síguenos en nuestras redes!</h4>
+  <br>
+  <a href="https://www.facebook.com/profile.php?id=61566758859162" target="_blank">
+    <img src="assents/img/facebook.jpeg" class="social-icon">
+</a>
+<a href="https://www.instagram.com/donde_toreto_cars?igsh=cGZsenE3ZjlpZDR4" target="_blank">
+    <img src="assents/img/IG.png" class="social-icon">
+</a>
+<a href="https://wa.me/+56992221095" target="_blank">
+    <img src="assents/img/whatsapp.png" class="social-icon">
+</a>
+
+</div>
+
+
+<center><div class="pie"><h3>DondeToretoCars</h3></div></center>
+
+
+

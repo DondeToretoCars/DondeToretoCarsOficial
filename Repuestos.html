@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Repuestos</title>
+    <!-- Importa la fuente Nosifer desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: gray;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            font-family: "Nosifer", sans-serif;
+            font-style: normal;
+            font-size: 2.5rem;
+            color: gold;
+            margin: 0;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .contenido {
+            max-width: 1000px;
+            margin: auto;
+            line-height: 1.8;
+            font-size: 1.5rem;
+        }
+        .frase-destacada {
+            font-size: 2rem;
+            font-weight: bold;
+            white-space: nowrap; /* Mantener en una sola línea */
+            text-align: center;
+        }
+        .lista-con-imagen {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px; /* Espacio entre lista e imagen */
+            margin-top: 20px;
+        }
+        .lista-con-imagen ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .lista-con-imagen ul li::before {
+            content: "🔧 ";
+        }
+        .imagen-lateral {
+            max-width: 300px;
+            height: auto;
+        }
+        a {
+            color: inherit; /* Mantiene color blanco */
+            text-decoration: none; /* Sin subrayado */
+        }
+        /* Ajuste automático de frases destacadas en pantallas pequeñas */
+        @media (max-width: 800px) {
+            .frase-destacada {
+                font-size: 1.8rem;
+            }
+        }
+        @media (max-width: 600px) {
+            .frase-destacada {
+                font-size: 1.5rem;
+            }
+        }
+        @media (max-width: 400px) {
+            .frase-destacada {
+                font-size: 1.2rem;
+            }
+            .lista-con-imagen {
+                flex-direction: column;
+                align-items: center;
+            }
+            .imagen-lateral {
+                max-width: 80%;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+    <button>Volver al inicio</button>
+</a>
+    <h1>🚗🔧 ¡Traemos e instalamos repuestos para tu vehículo! 🔧🚗</h1>
+    <div class="contenido">
+        <p class="frase-destacada">¿Necesitas un repuesto? ¡Lo conseguimos y lo instalamos!</p>
+        <p>Trabajamos con cualquier tipo de vehículo y repuesto:</p>
+
+        <div class="lista-con-imagen">
+            <ul>
+                <li>Parabrisas (venta + instalación)</li>
+                <li>Cambio de aceite y filtros (aceite, aire)</li>
+                <li>Cambio de bujías y cables</li>
+                <li>Bandejas y terminales</li>
+                <li>Pastillas y discos de freno</li>
+                <li>Baterías (venta + instalación)</li>
+                <li>Luces y faros (halógenos, LED, stop, direccionales)</li>
+                <li>Correas y tensores</li>
+                <li>Espejos laterales</li>
+                <li>Limpiaparabrisas</li>
+                <li>Y mucho más en mecánica simple y mantenimiento preventivo</li>
+            </ul>
+            <img src="assents/img/posteo-pafina-20_7_23-removebg-preview.png" alt="Imagen repuestos" class="imagen-lateral">
+        </div>
+
+        <h1><p class="frase-destacada">
+            <a href="https://wa.me/+56992221095" target="_blank">
+                📞 Contáctanos hoy mismo .
+            </a>
+        </p></h1>
+    </div>
+</body>
+</html>
